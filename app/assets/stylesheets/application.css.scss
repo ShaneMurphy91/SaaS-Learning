@@ -44,6 +44,17 @@ h1,h2, h3 {
     color: white;
     opacity: 0.75;
   }
+  
+  
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #ff5858;
+  }
 }
 
 // Home Page Styles
